@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A66DDC681CB35DC2000A632F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DDC521CB35DC2000A632F /* AppDelegate.m */; };
+		A66DDC691CB35DC2000A632F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A66DDC531CB35DC2000A632F /* Assets.xcassets */; };
+		A66DDC6A1CB35DC2000A632F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66DDC541CB35DC2000A632F /* LaunchScreen.storyboard */; };
+		A66DDC6B1CB35DC2000A632F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A66DDC561CB35DC2000A632F /* Main.storyboard */; };
+		A66DDC6C1CB35DC2000A632F /* DDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DDC5A1CB35DC2000A632F /* DDConstants.m */; };
+		A66DDC6D1CB35DC2000A632F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A66DDC5C1CB35DC2000A632F /* Info.plist */; };
+		A66DDC6E1CB35DC2000A632F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DDC5D1CB35DC2000A632F /* main.m */; };
+		A66DDC6F1CB35DC2000A632F /* DDDraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DDC601CB35DC2000A632F /* DDDraggableView.m */; };
+		A66DDC701CB35DC2000A632F /* DDDraggableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66DDC611CB35DC2000A632F /* DDDraggableView.xib */; };
+		A66DDC711CB35DC2000A632F /* DDMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DDC631CB35DC2000A632F /* DDMainView.m */; };
+		A66DDC721CB35DC2000A632F /* DDMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A66DDC641CB35DC2000A632F /* DDMainView.xib */; };
+		A66DDC731CB35DC2000A632F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A66DDC671CB35DC2000A632F /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A646A68E1CAD17A200D445BD /* DDCardsViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDCardsViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66DDC511CB35DC2000A632F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A66DDC521CB35DC2000A632F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A66DDC531CB35DC2000A632F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A66DDC551CB35DC2000A632F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A66DDC571CB35DC2000A632F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A66DDC591CB35DC2000A632F /* DDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDConstants.h; sourceTree = "<group>"; };
+		A66DDC5A1CB35DC2000A632F /* DDConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDConstants.m; sourceTree = "<group>"; };
+		A66DDC5C1CB35DC2000A632F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A66DDC5D1CB35DC2000A632F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A66DDC5F1CB35DC2000A632F /* DDDraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDDraggableView.h; sourceTree = "<group>"; };
+		A66DDC601CB35DC2000A632F /* DDDraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDDraggableView.m; sourceTree = "<group>"; };
+		A66DDC611CB35DC2000A632F /* DDDraggableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDDraggableView.xib; sourceTree = "<group>"; };
+		A66DDC621CB35DC2000A632F /* DDMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMainView.h; sourceTree = "<group>"; };
+		A66DDC631CB35DC2000A632F /* DDMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMainView.m; sourceTree = "<group>"; };
+		A66DDC641CB35DC2000A632F /* DDMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DDMainView.xib; sourceTree = "<group>"; };
+		A66DDC661CB35DC2000A632F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A66DDC671CB35DC2000A632F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A646A68B1CAD17A200D445BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A646A6851CAD17A200D445BD = {
+			isa = PBXGroup;
+			children = (
+				A66DDC501CB35DC2000A632F /* DDCardsViewSample */,
+				A646A68F1CAD17A200D445BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A646A68F1CAD17A200D445BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A646A68E1CAD17A200D445BD /* DDCardsViewSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A66DDC501CB35DC2000A632F /* DDCardsViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				A66DDC511CB35DC2000A632F /* AppDelegate.h */,
+				A66DDC521CB35DC2000A632F /* AppDelegate.m */,
+				A66DDC531CB35DC2000A632F /* Assets.xcassets */,
+				A66DDC541CB35DC2000A632F /* LaunchScreen.storyboard */,
+				A66DDC561CB35DC2000A632F /* Main.storyboard */,
+				A66DDC581CB35DC2000A632F /* Constants */,
+				A66DDC5C1CB35DC2000A632F /* Info.plist */,
+				A66DDC5D1CB35DC2000A632F /* main.m */,
+				A66DDC5E1CB35DC2000A632F /* View */,
+				A66DDC651CB35DC2000A632F /* ViewController */,
+			);
+			path = DDCardsViewSample;
+			sourceTree = "<group>";
+		};
+		A66DDC581CB35DC2000A632F /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A66DDC591CB35DC2000A632F /* DDConstants.h */,
+				A66DDC5A1CB35DC2000A632F /* DDConstants.m */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A66DDC5E1CB35DC2000A632F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A66DDC5F1CB35DC2000A632F /* DDDraggableView.h */,
+				A66DDC601CB35DC2000A632F /* DDDraggableView.m */,
+				A66DDC611CB35DC2000A632F /* DDDraggableView.xib */,
+				A66DDC621CB35DC2000A632F /* DDMainView.h */,
+				A66DDC631CB35DC2000A632F /* DDMainView.m */,
+				A66DDC641CB35DC2000A632F /* DDMainView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A66DDC651CB35DC2000A632F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A66DDC661CB35DC2000A632F /* MainViewController.h */,
+				A66DDC671CB35DC2000A632F /* MainViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A646A68D1CAD17A200D445BD /* DDCardsViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A646A6A51CAD17A200D445BD /* Build configuration list for PBXNativeTarget "DDCardsViewSample" */;
+			buildPhases = (
+				A646A68A1CAD17A200D445BD /* Sources */,
+				A646A68B1CAD17A200D445BD /* Frameworks */,
+				A646A68C1CAD17A200D445BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDCardsViewSample;
+			productName = DraggableViewSample;
+			productReference = A646A68E1CAD17A200D445BD /* DDCardsViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A646A6861CAD17A200D445BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Daiki Ichikawa";
+				TargetAttributes = {
+					A646A68D1CAD17A200D445BD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A646A6891CAD17A200D445BD /* Build configuration list for PBXProject "DDCardsViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A646A6851CAD17A200D445BD;
+			productRefGroup = A646A68F1CAD17A200D445BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A646A68D1CAD17A200D445BD /* DDCardsViewSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A646A68C1CAD17A200D445BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66DDC6D1CB35DC2000A632F /* Info.plist in Resources */,
+				A66DDC721CB35DC2000A632F /* DDMainView.xib in Resources */,
+				A66DDC6B1CB35DC2000A632F /* Main.storyboard in Resources */,
+				A66DDC6A1CB35DC2000A632F /* LaunchScreen.storyboard in Resources */,
+				A66DDC691CB35DC2000A632F /* Assets.xcassets in Resources */,
+				A66DDC701CB35DC2000A632F /* DDDraggableView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A646A68A1CAD17A200D445BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A66DDC711CB35DC2000A632F /* DDMainView.m in Sources */,
+				A66DDC6F1CB35DC2000A632F /* DDDraggableView.m in Sources */,
+				A66DDC731CB35DC2000A632F /* MainViewController.m in Sources */,
+				A66DDC6C1CB35DC2000A632F /* DDConstants.m in Sources */,
+				A66DDC6E1CB35DC2000A632F /* main.m in Sources */,
+				A66DDC681CB35DC2000A632F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A66DDC541CB35DC2000A632F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66DDC551CB35DC2000A632F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A66DDC561CB35DC2000A632F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A66DDC571CB35DC2000A632F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A646A6A31CAD17A200D445BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A646A6A41CAD17A200D445BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A646A6A61CAD17A200D445BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/DDCardsViewSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daiki.ichikawa.DDCardsViewSample;
+				PRODUCT_NAME = DDCardsViewSample;
+			};
+			name = Debug;
+		};
+		A646A6A71CAD17A200D445BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/DDCardsViewSample/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = daiki.ichikawa.DDCardsViewSample;
+				PRODUCT_NAME = DDCardsViewSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A646A6891CAD17A200D445BD /* Build configuration list for PBXProject "DDCardsViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A646A6A31CAD17A200D445BD /* Debug */,
+				A646A6A41CAD17A200D445BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A646A6A51CAD17A200D445BD /* Build configuration list for PBXNativeTarget "DDCardsViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A646A6A61CAD17A200D445BD /* Debug */,
+				A646A6A71CAD17A200D445BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A646A6861CAD17A200D445BD /* Project object */;
+}
